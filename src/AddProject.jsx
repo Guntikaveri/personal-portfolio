@@ -3,7 +3,7 @@ import footerFrame from "./Assets/footerFrame.svg";
 import footerLinks from "./Assets/footerLinks.svg";
 import React, { useState } from "react";
 import "./AddProject.css";
-import ViewProject from "./ProjectDetails";
+import ProjectDetails from "./ProjectDetails";
 
 const AddProject = () => {
   const [name, setName] = useState(null);
@@ -64,7 +64,7 @@ const AddProject = () => {
         </div>
       </div>
       <img src={footerFrame} alt="frame" width={"100%"} />
-      <ViewProject projectList={projectArr} />
+      <ProjectDetails projectList={projectArr} />
       <img
         src={footerLinks}
         alt="frame"
