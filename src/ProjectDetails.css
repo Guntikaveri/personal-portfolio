@@ -1,0 +1,29 @@
+.project-title {
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.project-desc {
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+}
+.whitebtn {
+  color: black !important;
+  text-transform: none !important;
+  font-size: 18px !important;
+  border: 1px black solid !important;
+  margin-left: 10px !important;
+}
+.project-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
