@@ -15,7 +15,7 @@
 }
 .add-button-container {
   display: flex !important;
-  justify-content: end !important;
+  justify-content: flex-end !important;
 }
 .add-button {
   font-family: Roboto !important;
